@@ -35,3 +35,59 @@ print('dia berkata:"pergilah"')
 print("aku menimpali : \"apakah kau ingin aku'angkat kaki'?\"")
 
 print("\\(^_^)/(\\*~*/)")
+
+"""operasi pada string"""
+
+berita = 'Ramai-ramai developer di seluruh dunia mulai menggunakan \
+teks editor masa kini seperti Visual Studio Code, \
+atom, sublime text, dan lain sebagainya.'
+
+print('sublime text' in berita)
+print('notepad++' in berita)
+
+"""memotong string"""
+
+nama = 'Lendis Fabri'
+
+print(nama[4])
+print(nama[7])
+print(nama[-1])
+print(nama[-3])
+
+"""slicing string
+
+"""
+
+judul = 'Pelajaran Matematika Untuk SD'
+
+print(judul[0:5])
+print(judul[:10])
+print(judul[10:15])
+print(judul[-1:])
+print(judul[:-3])
+print(judul[-5:])
+
+"""menghitung panjang string"""
+
+print(len('Indonesia'))
+print(len('Malaysia'))
+
+"""memeriksa karakter awal string"""
+
+nomor_telepon_1 = '0871122334455'
+nomor_telepon_2 = '628877665530'
+nomor_telepon_3 = '+628300330030'
+
+kode_negara = '+62'
+
+print(nomor_telepon_1.startswith(kode_negara))
+print(nomor_telepon_2.startswith(kode_negara))
+print(nomor_telepon_3.startswith(kode_negara))
+
+"""memeriksa karakter akhir string"""
+
+email_1 = 'presiden@gmail.com'
+email_2 = 'presiden@outlook.com'
+
+print(email_1.endswith('gmail.com'))
+print(email_2.endswith('gmail.com'))
